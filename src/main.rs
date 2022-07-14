@@ -1,3 +1,6 @@
+mod server;
+
 fn main() {
-    println!("Hello, world!");
+    let addr = "localhost:8080";
+    server::start_server(addr);
 }
